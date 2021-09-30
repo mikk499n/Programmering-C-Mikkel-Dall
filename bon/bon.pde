@@ -13,13 +13,13 @@ void draw(){
   text("Antal:",50,135);
   int Antal1 = 3;
   text(Antal1,80,135);
-  text("Pris pr. stk:",110,135);
+  text("Pris per. stk:",110,135);
   int Antal2 = 6;
   text(Antal2,170,135);
   text("Varenavn:",190,135);
-  text("Mælk",245,135);
+  text("Chips",245,135);
   text("Beløb:",300,135);
-  int v1 = Antal1 * Antal2;
+  int Pris1 = Antal1 * Antal2;
   text(v1,335,135);
   text("Antal:",50,160);
   int Antal3 =  2;
@@ -28,14 +28,14 @@ void draw(){
   int Antal4 = 5;
   text(Antal2,170,160);
   text("Varenavn:",190,160);
-  text("Chips",245,160);
+  text("Æg",245,160);
   text("Beløb:",300,160);
   //Beregn pris2
-   int v2 = Antal3 * Antal4;
+   int Pris2 = Antal3 * Antal4;
   text(v2,335,160);
   //Beregn total beløb
   text("Beløb uden moms:",240,500);
-  int total = v1 + v2;
+  int total = Pris1 + Pris2;
   text(total,340,500);
   //Beregn momsen
   float belobMedMoms = beregnMoms(total);
