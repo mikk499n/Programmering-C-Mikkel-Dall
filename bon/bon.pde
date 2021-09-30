@@ -30,17 +30,21 @@ void draw(){
   text("Varenavn:",190,160);
   text("Æg",245,160);
   text("Beløb:",300,160);
+  
   //Beregn pris2
    int Pris2 = Antal3 * Antal4;
   text(v2,335,160);
+  
   //Beregn total beløb
   text("Beløb uden moms:",240,500);
   int total = Pris1 + Pris2;
   text(total,340,500);
+  
   //Beregn momsen
   float belobMedMoms = beregnMoms(total);
   text("Beløb med moms:",240,520);
   text(belobMedMoms,340,520);
+  
   //Beregn momsbeløbet
   float momsbb = momsBelob(total);
   text("Momsbeløb:",240,540);
