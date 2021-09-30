@@ -7,8 +7,8 @@ void draw(){
   noLoop();
   fill(0,0,0);
   textSize(12);
-  text("Rema 1000 Aabenraa",50,50);
-  text("Aabenra,Kongehøjvej 10, 6200 ",50,75);
+  text("Rema 1000, Aabenraa 6200",50,50);
+  text("Rugkobbel, Farversmøllevej 2, 4 ",50,75);
   print (day(),"/",month(),year(), hour(),":",minute());
   text("Antal:",50,135);
   int Antal1 = 3;
