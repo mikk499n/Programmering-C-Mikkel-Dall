@@ -6,10 +6,14 @@ void draw(){
   background(255,255,255);
   noLoop();
   fill(0,0,0);
+  
+  //Her sætter jeg teksten op med størrelse, Butik, samt dato.
   textSize(12);
   text("Rema 1000, Aabenraa 6200",50,50);
   text("Rugkobbel, Farversmøllevej 2, 4 ",50,75);
   print (day(),"/",month(),year(), hour(),":",minute());
+  
+  //Her sætter jeg antal op for Varen Chips
   text("Antal:",50,135);
   int Antal1 = 3;
   text(Antal1,80,135);
@@ -18,6 +22,8 @@ void draw(){
   text(Antal2,170,135);
   text("Varenavn:",190,135);
   text("Chips",245,135);
+  
+  //Her begynder jeg at beregne prisen og total prisen for antallet af vare
   text("Beløb:",300,135);
   int Pris1 = Antal1 * Antal2;
   text(v1,335,135);
@@ -27,6 +33,8 @@ void draw(){
   text("Pris pr. stk:",110,160);
   int Antal4 = 5;
   text(Antal2,170,160);
+  
+  //Her sætter jeg beløbet op for varen Æg
   text("Varenavn:",190,160);
   text("Æg",245,160);
   text("Beløb:",300,160);
