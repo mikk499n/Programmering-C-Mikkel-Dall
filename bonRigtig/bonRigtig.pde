@@ -37,6 +37,8 @@ void draw(){
   text("Chips",245,135);
   text("Æg",245,160);
    
+   //Måske skriv du begynder at regne beløbet
+   
   text("Beløb:",300,160);
   int Pris2 = AntalÆg * PrisÆg;
   text(Pris2+"DKK",350,160);
