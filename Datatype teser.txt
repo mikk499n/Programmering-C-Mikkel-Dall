@@ -1,0 +1,31 @@
+Int
+Gæt: 4 Byte
+Udregnet: 4 Byte
+
+Float
+Gæt: 2 byte 
+Udregnet: 4 byte
+
+Char
+Gæt: 1 byte
+Udregnet: 2 byte
+
+Byte
+Gæt: 1 byte
+Udregnet: 1 byte
+
+Boolean
+Gæt: 1 bit
+Udregnet: 1 bit
+
+Short
+Gæt: 1 byte
+Udregnet: 2 byte
+
+Long
+Gæt: 4 byte
+Udregnet: 8 byte
+
+Double
+Gæt: 8 byte
+Udregnet: 8 byte
